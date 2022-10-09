@@ -11,4 +11,4 @@ of Algorithms. This portofolio is to showcase my understanding of weekly topics.
    - [README](1 - Big O Notation/README.md)
 
 * Fisher-Yates Shuffle
-    - [README](2 - Fisher-Yates Shuffle/README.md)
+    - [README](https://github.com/EvyAvila/Algorithms-Portfolio-EAvila/tree/main/2%20-%20Fisher-Yates%20Shuffle)
