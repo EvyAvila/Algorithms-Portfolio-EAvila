@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Fisher-YatesSuffleMyExample/1.0.0": {
+        "dependencies": {
+          "FYShuffleLibrary": "1.0.0"
+        },
+        "runtime": {
+          "Fisher-YatesSuffleMyExample.dll": {}
+        }
+      },
+      "FYShuffleLibrary/1.0.0": {
+        "runtime": {
+          "FYShuffleLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Fisher-YatesSuffleMyExample/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FYShuffleLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

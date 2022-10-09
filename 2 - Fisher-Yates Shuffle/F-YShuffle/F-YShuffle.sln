@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "F-YShuffle", "F-YShuffle\F-YShuffle.csproj", "{71906B21-711B-40CE-B960-C86E08F8A145}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "F-YShuffleLibrary", "F-YShuffleLibrary\F-YShuffleLibrary.csproj", "{49147C43-705C-458A-9508-DD4507EEBCEB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71906B21-711B-40CE-B960-C86E08F8A145}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71906B21-711B-40CE-B960-C86E08F8A145}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71906B21-711B-40CE-B960-C86E08F8A145}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71906B21-711B-40CE-B960-C86E08F8A145}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49147C43-705C-458A-9508-DD4507EEBCEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49147C43-705C-458A-9508-DD4507EEBCEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49147C43-705C-458A-9508-DD4507EEBCEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49147C43-705C-458A-9508-DD4507EEBCEB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {20519025-EE34-4B39-B235-1CA65BFD66A9}
+	EndGlobalSection
+EndGlobal

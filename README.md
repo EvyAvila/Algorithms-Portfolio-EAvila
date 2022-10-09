@@ -8,3 +8,6 @@ of Algorithms. This portofolio is to showcase my understanding of weekly topics.
    - Constant O(1)
    - Linear O(n)
    - Quadratic O(n^2)
+
+* Fisher-Yates Shuffle
+    - [README](Algorithms-Portfolio-EAvila/blob/master/2 - Fisher-Yates Shuffle/README.md)
