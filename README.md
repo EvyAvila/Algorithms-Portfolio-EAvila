@@ -9,3 +9,6 @@ of Algorithms. This portofolio is to showcase my understanding of weekly topics.
 
 * Fisher-Yates Shuffle
     - [Fisher-Yates Shuffle Examples](https://github.com/EvyAvila/Algorithms-Portfolio-EAvila/tree/main/2%20-%20Fisher-Yates%20Shuffle)
+
+* Data Structures
+    - [Data Structures Examples](https://github.com/EvyAvila/Algorithms-Portfolio-EAvila/tree/main/3%20-%20Data%20Structures)
