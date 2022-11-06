@@ -50,11 +50,11 @@ namespace StackVSQueue
         {
             WriteLine("Stack:");
             ReadKey();
-            s.DisplayStack();
+            s.DisplayValue();
             ResetScreen();
             WriteLine("Queue:");
             ReadKey();
-            q.DisplayQueue();
+            q.DisplayValue();
         }
 
         private void ResetScreen()

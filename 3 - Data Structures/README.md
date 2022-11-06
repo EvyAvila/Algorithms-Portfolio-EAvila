@@ -6,6 +6,6 @@ Each example stores large data from an external text file of video game titles. 
 of the projects is to compare how each implementation is different and which is more
 efficient based on circumstances. 
 
-While going about the applications, they each follow the same format of retrieving the data
+While implementing the applications, they each follow the same format of retrieving the data
 from a text file and setting the values into the containment types of Arrays, Dictionarys, 
 Stacks, and Queues. Then, the console displays the entire data.

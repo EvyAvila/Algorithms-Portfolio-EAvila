@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ArrayVsMap;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,28 +8,32 @@ using System.Threading.Tasks;
 
 namespace StackVSQueue
 {
-    public class StackExample
+    public class StackExample : IExampleComponents
     {
-        private static string FileName = "VideoGamesTitleList.txt";
-
-        private string[] GetFile = File.ReadAllLines(FileName);
+        public string ExternalFileName { get => "VideoGamesTitleList.txt"; set => ExternalFileName = value; }
+        public string[] GetExternalFile { get => File.ReadAllLines(ExternalFileName); set { } }
 
         public Stack VideoGameTitleStack { get; private set; }
 
         public StackExample()
         {
             VideoGameTitleStack = new Stack();
-            SetStackValues();
+            SetValue();
         }
 
-        
-
-        void SetStackValues()
+        public void DisplayValue()
         {
-            for (int i = 0; i < GetFile.Length; i++)
+            foreach (var stack in VideoGameTitleStack)
             {
-                VideoGameTitleStack.Push(GetFile[i]);
-                
+                Console.WriteLine(stack);
+            }
+        }
+
+        public void SetValue()
+        {
+            for (int i = 0; i < GetExternalFile.Length; i++)
+            {
+                VideoGameTitleStack.Push(GetExternalFile[i]);
             }
 
             /* Showing an example of removing a certain section
@@ -38,14 +43,6 @@ namespace StackVSQueue
             }*/
         }
 
-        public void DisplayStack()
-        {
-
-            foreach (var stack in VideoGameTitleStack)
-            {
-                Console.WriteLine(stack);
-                
-            }
-        }
     }
+
 }

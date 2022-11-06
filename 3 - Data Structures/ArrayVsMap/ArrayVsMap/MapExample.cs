@@ -7,36 +7,36 @@ using System.IO;
 
 namespace ArrayVsMap
 {
-    public class MapExample
+    public class MapExample : IExampleComponents
     {
-        private static string FileName = "VideoGamesTitleList.txt";
+        public string ExternalFileName { get => "VideoGamesTitleList.txt"; set => ExternalFileName = value; }
+        public string[] GetExternalFile { get => File.ReadAllLines(ExternalFileName); set { } }
 
-        private string[] GetFile = File.ReadAllLines(FileName);
-
-        //string is the data, and the int is the number in which they appear
         public Dictionary<string, int> VidoeGameTitleDic { get; private set; }
 
         public MapExample()
         {
             VidoeGameTitleDic = new Dictionary<string, int>();
-            SetDictValues();
+            SetValue();
         }
 
-        private void SetDictValues()
-        {
-            for(int i = 0; i < GetFile.Length; i++)
-            {
-                //Similar to a List, Dictionary adds new elements.
-                VidoeGameTitleDic.Add(GetFile[i], i);
-            }
-        }
-
-        public void DisplayDict()
+        public void DisplayValue()
         {
             foreach (var map in VidoeGameTitleDic)
             {
-                Console.WriteLine(map);
+                Console.WriteLine(map); 
+            }
+        }
+
+        public void SetValue()
+        {
+            for (int i = 0; i < GetExternalFile.Length; i++)
+            {
+                //Similar to a List, Dictionary adds new elements.
+                VidoeGameTitleDic.Add(GetExternalFile[i], i);
             }
         }
     }
+
+
 }

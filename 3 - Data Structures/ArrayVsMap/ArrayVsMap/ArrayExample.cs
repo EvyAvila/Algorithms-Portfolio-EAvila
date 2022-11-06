@@ -7,29 +7,19 @@ using System.IO;
 
 namespace ArrayVsMap
 {
-    public class ArrayExample
+    public class ArrayExample: IExampleComponents
     {
-        private static string FileName = "VideoGamesTitleList.txt";
+        public string ExternalFileName { get => "VideoGamesTitleList.txt"; set => ExternalFileName = value; }
+        public string[] GetExternalFile { get => File.ReadAllLines(ExternalFileName); set { } }
+
         public string[] VideoGameTitleArray { get; private set; }
-
-        private string[] GetFile = File.ReadAllLines(FileName);
-
         public ArrayExample()
         {
-            VideoGameTitleArray = new string[GetFile.Length]; //needs to get the size to be even
-
-            SetArrayValues();
+            VideoGameTitleArray = new string[GetExternalFile.Length]; //needs to get the size to be even
+            SetValue();
         }
 
-        void SetArrayValues()
-        {
-            for(int i = 0; i < GetFile.Length; i++)
-            {
-                VideoGameTitleArray[i] = GetFile[i];
-            }
-        }
-
-        public void DisplayArray()
+        public void DisplayValue()
         {
             for (int i = 0; i < VideoGameTitleArray.Length; i++)
             {
@@ -38,7 +28,13 @@ namespace ArrayVsMap
             }
         }
 
+        public void SetValue()
+        {
+            for (int i = 0; i < GetExternalFile.Length; i++)
+            {
+                VideoGameTitleArray[i] = GetExternalFile[i];
+            }
+        }
     }
 
-    
 }

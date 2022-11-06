@@ -11,7 +11,7 @@ namespace Quadratic
         /// <summary>
         /// The following code is a demonstration of Big O Notation O(n^2) or Quadratic
         /// A public void called PrintTimeSignature contains two for loops that
-        /// goes through the arrays topNumber and bottom number and displays 
+        /// goes through the arrays topNumber and bottomNumber and displays 
         /// each element. Since it consist of two instructions occuring, each loop
         /// has to look over all combinations, which can display more than the input
         /// values.

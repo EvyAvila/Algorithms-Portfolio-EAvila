@@ -55,11 +55,11 @@ namespace ArrayVsMap
         {
             WriteLine("Array:");
             ReadKey();
-            ae.DisplayArray();
+            ae.DisplayValue();
             ResetScreen();
             WriteLine("Map/Dictionary:");
             ReadKey();
-            me.DisplayDict();
+            me.DisplayValue();
 
         }
 

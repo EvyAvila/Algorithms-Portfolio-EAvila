@@ -5,28 +5,36 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 using System.Collections;
+using ArrayVsMap;
 
 namespace StackVSQueue
 {
-    public class QueueExample
+    public class QueueExample : IExampleComponents
     {
-        private static string FileName = "VideoGamesTitleList.txt";
-
-        private string[] GetFile = File.ReadAllLines(FileName);
+        public string ExternalFileName { get => "VideoGamesTitleList.txt"; set => ExternalFileName = value; }
+        public string[] GetExternalFile { get => File.ReadAllLines(ExternalFileName); set { } }
 
         public Queue VideoGameTitleQueue { get; private set; }
 
         public QueueExample()
         {
             VideoGameTitleQueue = new Queue();
-            SetQueueValues();
+            SetValue();
         }
 
-        void SetQueueValues()
+        public void DisplayValue()
         {
-            for(int i = 0; i < GetFile.Length; i++)
+            foreach (var queue in VideoGameTitleQueue)
             {
-                VideoGameTitleQueue.Enqueue(GetFile[i]);
+                Console.WriteLine(queue);
+            }
+        }
+
+        public void SetValue()
+        {
+            for (int i = 0; i < GetExternalFile.Length; i++)
+            {
+                VideoGameTitleQueue.Enqueue(GetExternalFile[i]);
             }
 
             /* Showing an example of removing a certain section
@@ -34,15 +42,8 @@ namespace StackVSQueue
             {
                 VideoGameTitleQueue.Dequeue();
             }*/
-            
-        }
 
-        public void DisplayQueue()
-        {
-            foreach(var queue in VideoGameTitleQueue)
-            {
-                Console.WriteLine(queue);
-            }
         }
     }
+
 }
