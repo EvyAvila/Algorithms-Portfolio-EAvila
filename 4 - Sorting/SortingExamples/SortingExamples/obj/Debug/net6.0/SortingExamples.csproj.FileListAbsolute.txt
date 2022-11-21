@@ -1,0 +1,16 @@
+C:\Users\Evyav\source\GitHub\Algorithms-Portfolio-EAvila\4 - Sorting\SortingExamples\SortingExamples\bin\Debug\net6.0\SortingExamples.exe
+C:\Users\Evyav\source\GitHub\Algorithms-Portfolio-EAvila\4 - Sorting\SortingExamples\SortingExamples\bin\Debug\net6.0\SortingExamples.deps.json
+C:\Users\Evyav\source\GitHub\Algorithms-Portfolio-EAvila\4 - Sorting\SortingExamples\SortingExamples\bin\Debug\net6.0\SortingExamples.runtimeconfig.json
+C:\Users\Evyav\source\GitHub\Algorithms-Portfolio-EAvila\4 - Sorting\SortingExamples\SortingExamples\bin\Debug\net6.0\SortingExamples.dll
+C:\Users\Evyav\source\GitHub\Algorithms-Portfolio-EAvila\4 - Sorting\SortingExamples\SortingExamples\bin\Debug\net6.0\SortingExamples.pdb
+C:\Users\Evyav\source\GitHub\Algorithms-Portfolio-EAvila\4 - Sorting\SortingExamples\SortingExamples\obj\Debug\net6.0\SortingExamples.csproj.AssemblyReference.cache
+C:\Users\Evyav\source\GitHub\Algorithms-Portfolio-EAvila\4 - Sorting\SortingExamples\SortingExamples\obj\Debug\net6.0\SortingExamples.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Evyav\source\GitHub\Algorithms-Portfolio-EAvila\4 - Sorting\SortingExamples\SortingExamples\obj\Debug\net6.0\SortingExamples.AssemblyInfoInputs.cache
+C:\Users\Evyav\source\GitHub\Algorithms-Portfolio-EAvila\4 - Sorting\SortingExamples\SortingExamples\obj\Debug\net6.0\SortingExamples.AssemblyInfo.cs
+C:\Users\Evyav\source\GitHub\Algorithms-Portfolio-EAvila\4 - Sorting\SortingExamples\SortingExamples\obj\Debug\net6.0\SortingExamples.csproj.CoreCompileInputs.cache
+C:\Users\Evyav\source\GitHub\Algorithms-Portfolio-EAvila\4 - Sorting\SortingExamples\SortingExamples\obj\Debug\net6.0\SortingExamples.dll
+C:\Users\Evyav\source\GitHub\Algorithms-Portfolio-EAvila\4 - Sorting\SortingExamples\SortingExamples\obj\Debug\net6.0\refint\SortingExamples.dll
+C:\Users\Evyav\source\GitHub\Algorithms-Portfolio-EAvila\4 - Sorting\SortingExamples\SortingExamples\obj\Debug\net6.0\SortingExamples.pdb
+C:\Users\Evyav\source\GitHub\Algorithms-Portfolio-EAvila\4 - Sorting\SortingExamples\SortingExamples\obj\Debug\net6.0\SortingExamples.genruntimeconfig.cache
+C:\Users\Evyav\source\GitHub\Algorithms-Portfolio-EAvila\4 - Sorting\SortingExamples\SortingExamples\obj\Debug\net6.0\ref\SortingExamples.dll
+C:\Users\Evyav\source\GitHub\Algorithms-Portfolio-EAvila\4 - Sorting\SortingExamples\SortingExamples\bin\Debug\net6.0\scores.txt
