@@ -23,3 +23,6 @@ topics of Algorithms.
 
 * Sorting
     - [Sorting Example](https://github.com/EvyAvila/Algorithms-Portfolio-EAvila/tree/main/4%20-%20Sorting)
+
+* Searching
+   -[Searching Example](https://github.com/EvyAvila/Algorithms-Portfolio-EAvila/tree/main/5%20-%20Searching)
