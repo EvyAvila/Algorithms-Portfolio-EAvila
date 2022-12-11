@@ -26,3 +26,6 @@ topics of Algorithms.
 
 * Searching
     - [Searching Example](https://github.com/EvyAvila/Algorithms-Portfolio-EAvila/tree/main/5%20-%20Searching)
+
+* Tree
+    - [Tree Example](https://github.com/EvyAvila/Algorithms-Portfolio-EAvila/tree/main/6%20-%20Tree%20Structure)

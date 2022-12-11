@@ -4,7 +4,7 @@ The following folder contains a project displaying an example of Tree Structure
 using Binary Search Tree.
 
 * Binary Search Tree Structure
-    - [Example]()
+    - [Example](https://github.com/EvyAvila/Algorithms-Portfolio-EAvila/blob/main/6%20-%20Tree%20Structure/TreeExample/TreeExample/BinarySearchTree.cs)
 
 A tree is an organization of values in a hierarchy called nodes. There is a root that
 starts the tree, and children that fall underneath. If the children of the node has 
