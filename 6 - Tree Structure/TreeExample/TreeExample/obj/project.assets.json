@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Evyav\\source\\GitHub\\Algorithms-Portfolio-EAvila\\5 - Searching\\SearchingExamples\\SearchingExamples\\SearchingExamples.csproj",
-      "projectName": "SearchingExamples",
-      "projectPath": "C:\\Users\\Evyav\\source\\GitHub\\Algorithms-Portfolio-EAvila\\5 - Searching\\SearchingExamples\\SearchingExamples\\SearchingExamples.csproj",
+      "projectUniqueName": "C:\\Users\\Evyav\\source\\GitHub\\Algorithms-Portfolio-EAvila\\6 - Tree Structure\\TreeExample\\TreeExample\\TreeExample.csproj",
+      "projectName": "TreeExample",
+      "projectPath": "C:\\Users\\Evyav\\source\\GitHub\\Algorithms-Portfolio-EAvila\\6 - Tree Structure\\TreeExample\\TreeExample\\TreeExample.csproj",
       "packagesPath": "C:\\Users\\Evyav\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Evyav\\source\\GitHub\\Algorithms-Portfolio-EAvila\\5 - Searching\\SearchingExamples\\SearchingExamples\\obj\\",
+      "outputPath": "C:\\Users\\Evyav\\source\\GitHub\\Algorithms-Portfolio-EAvila\\6 - Tree Structure\\TreeExample\\TreeExample\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Evyav\\AppData\\Roaming\\NuGet\\NuGet.Config",
